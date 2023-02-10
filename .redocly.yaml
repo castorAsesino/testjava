@@ -1,0 +1,15 @@
+# See https://docs.redoc.ly/cli/configuration/ for more information.
+apiDefinitions:
+  main: "openapi/openapi.yaml"
+  rock: openapi/rock.yaml
+  paper: openapi/paper.yaml
+  scissors: openapi/scissors.yaml
+lint:
+  rules:
+referenceDocs:
+  htmlTemplate: ./docs/index.html
+  pagination: section
+  theme:
+    colors:
+      primary:
+        main: "red"
